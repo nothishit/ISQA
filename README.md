@@ -1,1 +1,1 @@
-# QAoIS
+# Information Systems Quality Assurance
