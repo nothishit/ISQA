@@ -17,7 +17,7 @@ public class Main {
             // System.out.printf("tf = %.4f%n", temperatureFahrenheit);
             return String.format("tf = %.4f%n", temperatureFahrenheit);
         } else {
-            // System.out.println("Введите значения [0,100]");
+            System.out.println("Введите значения [0,100]");
             return "Введите значения [0,100]";
         }
         // scanner.close();
@@ -38,10 +38,10 @@ public class Main {
 
     /** (77) Вычислить значение f(x) по формуле: f(x)=log3(x^2+1)-3,25x */
     public static String task3(double x) {
-        // System.out.print("X= ");
+        System.out.print("X= ");
         // double x = scanner.nextDouble();
         double f = (Math.log(x * x + 1) / Math.log(3)) - 3.25 * x;
-        System.out.printf("F(x)= %.4f%n", f);
+        // System.out.printf("F(x)= %.4f%n", f);
         return String.format("F(x)= %.4f%n", f);
         // scanner.close();
     }
@@ -73,11 +73,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        // Пример вызова методов
-        // task8();
-        // task2();
-        // task3();
-        // task7();
-        // task6();
+        System.out.println();
     }
 }
