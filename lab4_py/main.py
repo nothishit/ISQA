@@ -45,4 +45,34 @@ class To_Test:
             quan1, quan2 = quan2, quan1 + quan2
         return print(f'Число кроликов через год = {Sum}')
 
+    '''(61)Два рабочих заработали вместе money рублей. 
+    Один работал 2 недели, а другой 4недели. Сколько денег заработал каждый?'''
+    def task5():
+        Money = float(input("введите сколько двое рабочих заработали вместе"))
+        Week_1_Working = 2
+        Week_2_Working = 4
+        Earnings_1 = (Week_1_Working / (Week_1_Working + Week_2_Working )) * Money
+        Earnings_2 = (Week_2_Working / (Week_1_Working + Week_2_Working)) * Money
+        print(f"Первый рабочий заработал, {Earnings_1:.4f} рублей")
+        print(f"Второй рабочий заработал, {Earnings_2:.4f} рублей")
+
+    '''(63)Найти расстояние между двумя точками с заданными координатами х1 
+    и х2 на числовой оси |x2-x1|.'''
+    def task63():
+        x1 = float(input("введите координату x1"))
+        x2 = float(input("введите координату x2"))
+        dist = abs (x2-x1)
+        print(f"расстояние между координатами, {dist:.4f}")
+
+
+    '''(78)Найти длину образующей l усеченного, если известны радиусы основания r и R, а также высота h.'''
+    def task4():
+        r = float(input("Радиус меньшего основания (r)="))
+        R = float(input("Радиус большего основания (R)="))
+        h = float(input("Высота конуса (h)="))
+
+        cone_generatrix = math.sqrt(h ** 2 + (R - r) ** 2)
+
+        print("Образующая (l)= {:.4f}".format(cone_generatrix))
+
 
