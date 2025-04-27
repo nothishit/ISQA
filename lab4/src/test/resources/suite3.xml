@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Third test config">
+    <test name="another tests">
+        <classes>
+            <class name="app.TestMain">
+                <methods>
+                    <include name="testTask3"/>
+                    <include name="testTask7"/>
+                    <include name="testTask7Exception"/>
+                    <include name="testTask6"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

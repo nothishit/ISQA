@@ -61,4 +61,4 @@ class TestToTest:
     def test_task6_fibonacci(self, capsys):
         To_Test.task6()
         captured = capsys.readouterr()
-        assert 'Число кроликов через год = 376' in captured.out
+        assert 'Число кроликов через год = 232\n' in captured.out

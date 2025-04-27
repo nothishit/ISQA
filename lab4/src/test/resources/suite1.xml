@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="First test config">
-    <test name="even tests">
+    <test name="task8 tests">
         <classes>
-            <class name="app.TestMain" />
+            <class name="app.TestMain">
+                <methods>
+                    <include name="testTask8ValidInput"/>
+                    <include name="testTask8InvalidInput"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

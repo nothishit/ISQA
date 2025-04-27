@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Second test config">
-    <test name="new tests">
+    <test name="task2 tests">
+        <groups>
+            <run>
+                <include name="task2"/>
+            </run>
+        </groups>
         <classes>
-            <class name="app.NewTasksTest" />
+            <class name="app.TestMain"/>
         </classes>
     </test>
 </suite>
