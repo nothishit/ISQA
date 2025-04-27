@@ -4,16 +4,11 @@ class To_Test:
     '''(47)'''
     def task8():
         temperature_celsia = float(input('Введите Температуру Цельсия\n'))
-        # Ввод произвольного значения Температуры Цельсия
         if 0 <= temperature_celsia <= 100:
-            # Проверяем соответсвует ли введённое значение промежутку [0;100]
             temperature_farengeita = ((temperature_celsia * 9) / 5) + 32
-            # Вычисляем значение температуры Фаренгейта
             return print('tf =', round(temperature_farengeita, 4))
-            # Выводим значение температуры Фаренгейта с точностью до 4 цифр в дробной части
         else:
             return print('Введите значения [0,100]\n')
-            # Вывод ошибки
 
     '''(76) Вычислить значение f(x) по формуле: f(x)=sqrt(x+a)+(x**2+b)/x; a=1; b=4'''
     def task2():
