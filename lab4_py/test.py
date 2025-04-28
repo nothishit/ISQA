@@ -4,7 +4,7 @@ import sys
 from main import To_Test
 
 class Test_To_Test:
-    @pytest.mark.parametrize("input_data,expected_output", [
+    @pytest.mark.parametrize("input_data, expected_output", [
         ("50", "tf = 122.0"),
         ("0", "tf = 32.0"),
         ("100", "tf = 212.0"),
