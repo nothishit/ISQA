@@ -11,7 +11,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         // TASK 2 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\vital\\Desktop\\okis lab 5\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\vital\\Desktop\\okis\\ISQA\\lab5\\chromedriver-win64\\chromedriver.exe");
 
         ChromeOptions options = new ChromeOptions();
         options.setBinary("C:\\Users\\vital\\AppData\\Local\\Yandex\\YandexBrowser\\Application\\browser.exe");
